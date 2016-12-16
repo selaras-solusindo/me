@@ -1,0 +1,52 @@
+.LOG
+
+4:12 PM 8/14/2015
+- index.php
+- tr_inev.php == input event
+  - isi tanggal, bulan, tahun
+  - click submit, == tr_chck.php
+
+- tr_chck.php == check ketersediaan tabel template sesuai tanggal bulan tahun
+  yang diinput
+
+- bila belum ada tabel template sesuai tanggal bulan tahun yang diinput
+  maka proses pembuatan tabel temporary di file tr__make.php
+  tr_chck.php line 62
+
+4:16 PM 8/14/2015
+- tr__make.php
+
+
+2:22 PM 8/19/2015
+- pembuatan hak akses
+- tampilan awal :: semua bisa liat ==>> done
+- main session_start()
+- link tetap clickable, saat click link :: ada pilihan :: edit hapus
+- saat edit dan hapus :: baru diminta username dan password
+- untuk penambahan event pun :: diminta username dan password
+- sistem disamakan dengan aplikasi yang sama (tetrasma)
+
+
+9:32 AM 8/20/2015
+- tr__ine2 ==>> penambahan event, dibutuhkan password
+
+
+10:43 AM 8/20/2015
+- save session untuk link yang diklik saat ingin crud, create read update delete
+
+
+9:44 AM 8/21/2015
+- sampai dengan save session
+
+
+
+11:39 AM 8/21/2015
+- logging username di tabel log
+
+
+8:31 PM 8/21/2015
+- ubah warna sesuaikan status, confirmed atau tentative
+
+
+11:37 AM 8/22/2015
+- dibuatkan hapus data
