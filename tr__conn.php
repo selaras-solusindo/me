@@ -5,9 +5,9 @@
 //$password_conn = "tetrasma2011";
 
 $hostname_conn = "localhost";
-$database_conn = "andalanm_me"; //$database_conn = "zecorind_mitra2";
-$username_conn = "andalanm_me"; //$username_conn = "zecorind_root";
-$password_conn = "M457r1P 81";
+$database_conn = "db_me"; //$database_conn = "zecorind_mitra2";
+$username_conn = "root"; //$username_conn = "zecorind_root";
+$password_conn = "admin";
 
 mysql_connect($hostname_conn, $username_conn, $password_conn) or die ("Tidak bisa terkoneksi ke Database server");
 mysql_select_db($database_conn) or die ("Database tidak ditemukan");

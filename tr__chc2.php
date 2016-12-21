@@ -3,7 +3,7 @@
 
 // nama database
 // db_me : database monthly event
-$mnamadb__ = "andalanm_me";
+$mnamadb__ = "db_me";
 
 
 // array nama bulan
